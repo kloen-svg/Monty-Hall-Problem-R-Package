@@ -1,0 +1,17 @@
+Package: montyhall
+Title: Monty Hall Problem Setups And Simulations
+Version: 0.0.1.0000
+Authors@R: 
+    person("Kristina", "Loen", , "kloen@asu.edu", role = c("aut", "cre"))
+Description: This package allows users to simulate Monty Hall Problem data. There are a variety of functions for manual,
+  step-by-step walk throughs of the problem, as well as nested functions that automate the entire process. There are also
+  functions that allow for loooping simulations. In addition to the standard Monty Hall simulator, there is the capability
+  for users to define their own scenario with any number of goats or cars (provided they adhere to the minimums of the orignal
+  problem setup of two goats and one car).
+License: `use_gpl3_license()` 
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.3
+Depends:
+  dplyr
+  LazyData: true
